@@ -22,7 +22,7 @@ const Expense = (props) => {
       />
       <ExpensesChart filteredExpenses = {filteredExpenses} />
       <ExpensesList items = {filteredExpenses} />
-    </Card>
+    </Card> 
   );
 };
 export default Expense;
